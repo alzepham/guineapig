@@ -27,4 +27,4 @@ jobs:
 
       - name: Run Enhanced PowerShell Script
         run: |
-          pwsh -File ./enhanced_script.ps1 -Name '${{ github.event.inputs.name }}' -Environment '${{ github.event.inputs.environment }}'
+          pwsh -File ./script.ps1 -Name '${{ github.event.inputs.name }}' -Environment '${{ github.event.inputs.environment }}'
